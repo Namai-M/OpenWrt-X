@@ -21,6 +21,7 @@ on:
         options:
           - 'master'
           - 'mt798x'
+          - 'openwrt-24.10'
           - 'openwrt-23.05'
           - 'openwrt-21.02'
           - 'openwrt-18.06'
