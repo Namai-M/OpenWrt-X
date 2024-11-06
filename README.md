@@ -2,7 +2,7 @@
   
 ![img.png](backups/实例/openwrt.png)
 -
-<h1>OpenWrt-X   固件云编译</h1>
+<h1>OpenWrt-X 固件云编译</h1>
 
 <img src="https://img.shields.io/github/downloads/Namia-M/OpenWrt-X/total.svg?style=for-the-badge&color=32C955"/>
 <img src="https://img.shields.io/github/stars/Namia-M/OpenWrt-X.svg?style=for-the-badge&color=orange"/>
@@ -17,13 +17,11 @@
 - 项目使用 Github Actions 拉取Openwrt的源码如下。
 -  [![Lean](https://img.shields.io/badge/Lede-OpenWrt-ff69b4.svg?style=flat&logo=appveyor)](https://github.com/coolsnowwolf/lede) [![Immortalwrt](https://img.shields.io/badge/immortalwrt-OpenWrt-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/immortalwrt/immortalwrt) [![Lienol](https://img.shields.io/badge/Lienol-OpenWrt-orange.svg?style=flat&logo=appveyor)](https://github.com/Lienol/openwrt) [![Official](https://img.shields.io/badge/Official-OpenWrt-32C955.svg?style=flat&logo=appveyor)](https://github.com/openwrt/openwrt) [![Xwrt](https://img.shields.io/badge/Xwrt-OpenWrt-32C955.svg?style=flat&logo=appveyor)](https://github.com/x-wrt/x-wrt)
 - 固件构成： [![P3TERX](https://img.shields.io/badge/OpenWrt-P3TERX-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/P3TERX/Actions-OpenWrt) [![281677160](https://img.shields.io/badge/OpenWrt-common-blueviolet.svg?style=flat&logo=appveyor)](https://github.com/281677160/common) 
-- 固件默认管理地址：`192.168.5.1` 默认用户：`root` x86_64密码：`【空】
-- 提供适配 X86 、photonicat、设备的 OpenWrt 固件
+- 固件默认管理地址：`192.168.5.1` 默认用户：`root`密码：`【空】
 - 项目编译的固件插件为最新版本，最新版插件可能有 BUG，如果之前使用稳定则无需追新
 - 第一次使用请采用全新安装，避免出现升级失败以及其他一些可能的 BUG
 - 支持uefi和传统启动两种模式，可以使用微pe或传统你们知道的刷机方式
 - 另外就是网盘的固件可能更新的网站是我原始仓库-X的你们如果刷网盘固件并且要和我后台关联更新的话把Namia-X改成Namia-M
-- ### photonicat [`光影猫💕`](https://github.com/Namia-M/photonicat) 
 - 刷机工具 [`百度网盘💕`](https://pan.baidu.com/s/1k14RFEMdHw3W_S7wCnQyDg?pwd=8986) 提取码: 8986 
 - 编译 [`必看项💕`](https://raw.githubusercontent.com/Namia-M/OpenWrt-X/refs/heads/main/backups/%E5%B7%B2%E7%BC%96%E8%AF%91%E8%AF%B4%E6%98%8E/txt) 
 
@@ -44,7 +42,6 @@
 
 ### 近期更新 [![](https://img.shields.io/badge/-近期固件更新-FFFFFF.svg)](#近期更新-)
 - ### 努力修复光影猫photonicat编译基础配置……🤣
-- ### photonicat [`光影猫💕`](https://github.com/Namia-M/photonicat) 
 
 ## 插件预览 [![](https://img.shields.io/badge/-固件插件及功能预览-FFFFFF.svg)](#插件预览-)
 - ![img.png](backups/实例/1img.png)
@@ -203,7 +200,6 @@
 - 进ssh选择插件
 - 进入CD命令
 -     cd openwrt && make menuconfig
-  
 6. 编译大概需要1-3小时，一般两个半小时就编译完成，最后后在仓库主页 [Releases](https://github.com/Namia-M/OpenWrt-X/releases) 对应 Tag 标签内下载固件
 <details>
 
@@ -217,10 +213,6 @@
 [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:kmy258855@gmail.com)
 
 - **因精力有限不提供任何技术支持和教程等相关问题解答，不保证完全无 BUG！**
-
-- **本人不对任何人因使用本固件所遭受的任何理论或实际的损失承担责任！**
-
-
 
 ## 鸣谢 [![](https://img.shields.io/badge/-跪谢各大佬-FFFFFF.svg)](#鸣谢-)
 | [ImmortalWrt](https://github.com/immortalwrt) | [coolsnowwolf](https://github.com/coolsnowwolf) | [Lienol](https://github.com/Lienol/openwrt) | [OpenWrt](https://github.com/openwrt/openwrt) | [P3TERX](https://github.com/P3TERX) | [Xwrt](https://github.com/x-wrt/x-wrt) | [281677160](https://github.com/281677160/bendi) |
